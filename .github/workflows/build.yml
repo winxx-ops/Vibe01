@@ -1,8 +1,8 @@
-name: Build Android APK
+ name: Build Android APK
 
 on:
   push:
-    branches: [ main ] # Runs every time you push code to the 'main' branch
+    branches: [ main ]
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # I removed the cache line from here to fix your error
 
       - name: Install Dependencies
         run: npm install
