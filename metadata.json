@@ -1,0 +1,8 @@
+{
+  "name": "Vibe1",
+  "description": "A high-fidelity music player experience with immersive red-light aesthetics, real-time visualizers, and AI-powered track vibe analysis.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
